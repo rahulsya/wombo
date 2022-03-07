@@ -1,2 +1,3 @@
 import Hero from "./Hero";
-export { Hero };
+import SectionOne from "./Section1";
+export { Hero, SectionOne };

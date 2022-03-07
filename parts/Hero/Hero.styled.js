@@ -6,11 +6,14 @@ export const HeroWrapper = styled.div`
   align-items: center;
 `;
 
+export const Main = styled.div``;
 export const HeroLeftSide = styled.div`
   width: 537px;
   display: flex;
   flex-direction: column;
 `;
+
+export const HeroRightSide = styled.div``;
 
 export const HeroTitle = styled.div`
   font-size: 64px;
@@ -37,6 +40,7 @@ export const BtnActionWrapper = styled.div`
 export const ImgBackDrop = styled.div`
   position: absolute;
   top: 0;
-  right: 0;
+  /* right: 0; */
+  /* width: 800px; */
   z-index: -10;
 `;

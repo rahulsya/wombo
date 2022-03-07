@@ -9,6 +9,7 @@ import {
   HeroLeftSide,
   ImgBackDrop,
   BtnActionWrapper,
+  HeroRightSide,
 } from "./Hero.styled";
 import { Button } from "../../components";
 export default function Hero() {
@@ -29,18 +30,20 @@ export default function Hero() {
               <Button text="See in Action" />
             </BtnActionWrapper>
           </HeroLeftSide>
-          <Image src={HeroImg} alt="hero image" width={583} height={582} />
+          <HeroRightSide>
+            <Image src={HeroImg} alt="hero image" width={583} height={582} />
+            <ImgBackDrop>
+              <Image
+                src={BackDropHero}
+                alt="back drop img"
+                width={689}
+                height={869}
+                draggable="false"
+              />
+            </ImgBackDrop>
+          </HeroRightSide>
         </HeroWrapper>
       </Container>
-      <ImgBackDrop>
-        <Image
-          src={BackDropHero}
-          alt="back drop img"
-          width={689}
-          height={869}
-          draggable="false"
-        />
-      </ImgBackDrop>
     </>
   );
 }
