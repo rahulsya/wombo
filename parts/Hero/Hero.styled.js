@@ -4,11 +4,15 @@ export const HeroWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: ${({ theme: { screen } }) => screen.large}) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const Main = styled.div``;
 export const HeroLeftSide = styled.div`
-  width: 537px;
+  max-width: 537px;
   display: flex;
   flex-direction: column;
 `;
@@ -43,4 +47,8 @@ export const ImgBackDrop = styled.div`
   /* right: 0; */
   /* width: 800px; */
   z-index: -10;
+
+  @media (max-width: ${({ theme: { screen } }) => screen.large}) {
+    display: none;
+  }
 `;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
@@ -17,6 +18,14 @@ export const NavLogoText = styled.p`
   padding-left: 12px;
   font-weight: bold;
   font-size: 18px;
+`;
+
+export const NavLinkWrapper = styled.div`
+  display: block;
+
+  @media (max-width: ${({ theme: { screen } }) => screen.medium}) {
+    display: none;
+  }
 `;
 
 export const NavLink = styled.a`

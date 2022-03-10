@@ -30,6 +30,7 @@ export default function Hero() {
               <Button text="See in Action" />
             </BtnActionWrapper>
           </HeroLeftSide>
+
           <HeroRightSide>
             <Image src={HeroImg} alt="hero image" width={583} height={582} />
             <ImgBackDrop>

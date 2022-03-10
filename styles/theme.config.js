@@ -6,7 +6,15 @@ export const theme = {
   muted: "#697B98",
   primaryLight: "#C6DBFF",
   mutedLight: "#FFFFFF",
+
+  screen: {
+    huge: "1440px",
+    large: "1170px",
+    medium: "768px",
+    small: "450px",
+  },
 };
+
 export const GlobalStyles = createGlobalStyle`
     *{
         box-sizing:border-box;

@@ -25,6 +25,12 @@ export const CardWrapper = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-bottom: 5rem;
+  place-content: space-between;
+
+  @media (max-width: ${({ theme: { screen } }) => screen.large}) {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
 `;
 
 export const Card = styled.div`
