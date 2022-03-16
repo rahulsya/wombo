@@ -1,9 +1,9 @@
-import { Square, List } from "./List.styled";
+import { Square, List, Content } from "./List.styled";
 const ListItem = ({ children }) => {
   return (
     <List>
       <Square />
-      <div> {children}</div>
+      <Content>{children}</Content>
     </List>
   );
 };
