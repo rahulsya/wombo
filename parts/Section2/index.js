@@ -40,7 +40,7 @@ const SectionTwo = () => {
           </RightSection>
           <Image src={ImgSectionTwo} alt="Img_sec2" />
         </SectionWrapper>
-        <BackDropImg>
+        <BackDropImg right>
           <Image src={ShapeSection3} />
         </BackDropImg>
       </Section>

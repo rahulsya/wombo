@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   position: relative;
+  margin-bottom: 50px;
 `;
 
 export const SectionWrapper = styled.div`
@@ -22,6 +23,7 @@ export const RightSection = styled.div`
 export const BackDropImg = styled.div`
   position: absolute;
   top: 0;
-  right: 0;
+  left: ${({ left }) => left && 0};
+  right: ${({ right }) => right && 0};
   z-index: -5;
 `;
