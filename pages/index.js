@@ -1,5 +1,12 @@
 import { Navigation, Header } from "../components";
-import { Hero, SectionOne, SectionTwo } from "../parts";
+import {
+  Hero,
+  SectionOne,
+  SectionTwo,
+  SectionThree,
+  SectionFour,
+} from "../parts";
+
 export default function Home() {
   return (
     <>
@@ -10,6 +17,10 @@ export default function Home() {
       <SectionOne />
       {/* content section2 */}
       <SectionTwo />
+      {/* content Section3 */}
+      <SectionThree />
+      {/* content section4 */}
+      <SectionFour />
     </>
   );
 }
