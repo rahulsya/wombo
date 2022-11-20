@@ -1,4 +1,4 @@
-import { Navigation, Header } from "../components";
+import { Navigation } from "../components";
 import {
   Hero,
   SectionOne,
@@ -10,7 +10,6 @@ import {
 export default function Home() {
   return (
     <>
-      <Header />
       <Navigation />
       <Hero />
       {/* content section1 */}
