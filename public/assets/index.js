@@ -1,6 +1,5 @@
 export * from "./icons";
-import ShapeSectionTwo from "./ShapeSectionTwo.svg";
-
+import ShapeSectionTwo from "./ShapeSectiontwo.svg";
 import ShapeSection3 from "./ShapeSection3.svg";
 import ShapeSectionFour from "./ShapeSectionFour.svg";
 import ImgSectionTwo from "./SectionTwo.png";
