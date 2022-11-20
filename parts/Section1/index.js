@@ -29,7 +29,7 @@ export default function SectionOne() {
           <CardWrapper>
             <Card primary>
               <ImageWrapper primary>
-                <Image src={ToolIcon} />
+                <Image alt="tool-icon" src={ToolIcon} />
               </ImageWrapper>
               <b>For designer</b>
               <p>
@@ -39,7 +39,7 @@ export default function SectionOne() {
             </Card>
             <Card>
               <ImageWrapper>
-                <Image src={CodeIcon} />
+                <Image alt="code-icon" src={CodeIcon} />
               </ImageWrapper>
               <b>For Coder</b>
               <p>
@@ -49,7 +49,7 @@ export default function SectionOne() {
             </Card>
             <Card>
               <ImageWrapper>
-                <Image src={MarketIcon} />
+                <Image alt="market-icon" src={MarketIcon} />
               </ImageWrapper>
               <b>For Marketer</b>
               <p>
@@ -60,7 +60,7 @@ export default function SectionOne() {
           </CardWrapper>
 
           <ImgBackDrop>
-            <Image src={ShapeSectionTwo} />
+            <Image alt="backdrop-shape" src={ShapeSectionTwo} />
           </ImgBackDrop>
         </Section>
       </Container>

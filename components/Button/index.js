@@ -6,7 +6,7 @@ export default function Button({ primary, text }) {
   return (
     <BtnAction primary={primary}>
       <div>
-        <Image src={primary ? DownloadIcon : PlayIcon} />
+        <Image alt="button-icon" src={primary ? DownloadIcon : PlayIcon} />
       </div>
       {text}
     </BtnAction>
